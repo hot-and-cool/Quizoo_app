@@ -1,1 +1,20 @@
-//
+// 外部ファイル
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+// 設定
+@import "setting/variables";
+@import "setting/media";
+
+// 共通部分
+@import "layout/header";
+@import "layout/footer";
+@import "layout/layout";
+
+// 部品
+@import "module/button";
+@import "module/sidebar";
+
+// 各ページ
+@import "pages/home";
+@import "pages/quiz";
